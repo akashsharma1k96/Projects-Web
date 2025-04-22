@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="non-empty">
+        <title>Akash Travel Agency</title>
+    </head>
+    <body>
+        <h1>Paris</h1>
+        <p>Travel Opportunities</p>
+        <h2>Packages</h2>
+        <<p>We have a lot of travel packages
+            <ul>
+                <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+                <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+            </ul>
+            <h2>Top Itineraries</h2>
+        </p>
+        <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank">
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Colosseum in Rome">
+           
+        </a>
+         <figcaption>Explore the Ancient Wonders of Rome</figcaption>
+    </figure>
+
+    <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank">
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Snow-capped Alps Mountains">
+            
+        </a>
+        <figcaption>Discover the Majestic Beauty of the Alps</figcaption>
+
+    </figure>
+
+    <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank">
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical Sea and Beach">
+            
+        </a>
+        <figcaption>Relax on the Pristine Shores of Tropical Beaches</figcaption>
+    </figure>
+    </body>
+
+</html>
