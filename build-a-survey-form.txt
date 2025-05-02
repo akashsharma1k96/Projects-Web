@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Website Feedback Survey</h1>
+    <p id="description">Please take a moment to tell us about your experience.</p>
+    <form id="survey-form">
+        <div>
+            <label id="name-label" for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label id="email-label" for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label id="number-label" for="number">Age (optional):</label>
+            <input type="number" id="number" min="13" max="120" placeholder="Age">
+        </div>
+        <div>
+            <label for="dropdown">How did you hear about us?</label>
+            <select id="dropdown">
+                <option value="social_media">Social Media</option>
+                <option value="search_engine">Search Engine</option>
+                <option value="friend">Friend</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <p>Would you recommend our website to a friend?</p>
+            <input type="radio" id="recommend-yes" name="recommend" value="yes">
+            <label for="recommend-yes">Definitely</label><br>
+            <input type="radio" id="recommend-maybe" name="recommend" value="maybe">
+            <label for="recommend-maybe">Maybe</label><br>
+            <input type="radio" id="recommend-no" name="recommend" value="no">
+            <label for="recommend-no">Not sure</label>
+        </div>
+        <div>
+            <p>What features do you like most? (Check all that apply)</p>
+            <input type="checkbox" id="feature-navigation" name="features" value="navigation">
+            <label for="feature-navigation">Easy Navigation</label><br>
+            <input type="checkbox" id="feature-design" name="features" value="design">
+            <label for="feature-design">Clean Design</label><br>
+            <input type="checkbox" id="feature-content" name="features" value="content">
+            <label for="feature-content">Informative Content</label><br>
+            <input type="checkbox" id="feature-performance" name="features" value="performance">
+            <label for="feature-performance">Website Performance</label>
+        </div>
+        <div>
+            <label for="comments">Any additional comments?</label><br>
+            <textarea id="comments" rows="5" cols="50" placeholder="Enter your comments here..."></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
