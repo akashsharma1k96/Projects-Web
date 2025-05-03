@@ -1,0 +1,68 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+</head>
+
+<body>
+ <ul class="todo-list">
+     <li><input type="checkbox" id="task1"></input>
+     <label for="task1">xyz</label><ul class="sub-item">
+    <li><a class="sub-item-link" href="https://www.example.com/book-recommendations" target="_blank">XYZ</a></li>
+</ul></li>
+     <li><input type="checkbox" id="task2"></input>
+     <label for="task2">abc</label><ul class="sub-item">
+    <li><a class="sub-item-link" href="https://www.example.com/book-recommendations" target="_blank">XYZ</a></li>
+</ul></li>
+     <li><input type="checkbox" id="task3"></input>
+     <label for="task3">123</label><ul class="sub-item">
+    <li><a class="sub-item-link" href="https://www.example.com/book-recommendations" target="_blank">XYZ</a></li>
+</ul></li>
+     <li><input type="checkbox" id="task4"></input>
+     <label for="task4">wow</label><ul class="sub-item">
+    <li><a class="sub-item-link" href="https://www.example.com/book-recommendations" target="_blank">XYZ</a></li>
+</ul></li>
+     
+     </ul>
+ </ul>
+
+</body>
+
+</html>
+
+
+<style>
+  a {
+    text-decoration: none;
+    color: blue; /* Default link color */
+  }
+
+  a:hover {
+    color: green; /* Hover color */
+  }
+
+  a:active {
+    color: red; /* Clicked color */
+  }
+
+  a:focus {
+    outline: 2px solid orange; /* Focus outline */
+  }
+
+  a:visited {
+    color: purple; /* Visited color */
+  }
+</style>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
